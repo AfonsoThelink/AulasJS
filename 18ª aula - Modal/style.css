@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.modal{
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #1f1f1f;
+    left: 0;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    display: none;
+}
+
+.modal-content{
+    background-color: #f1f1f1;
+    border: 1px solid #888;
+    border-radius: 4px;
+    margin: 35% auto;
+    padding: 20px;
+    width: 50%;
+}
+.close{
+    color: #aaa;
+    cursor: pointer;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}

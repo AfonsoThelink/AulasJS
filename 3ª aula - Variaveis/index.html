@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variaveis</title>
+    <link rel="stylesheet" href="CSS/style.CSS">
+</head>
+<body>
+    <main>
+        <h1>coloque as suas notas abaixo</h1>
+        <label for="">nota 1</label>
+        <input id="n1"> <br>
+        <label for="">nota 2</label>
+        <input id="n2"> <br>
+        <label for="">nota 3</label>
+        <input id="n3"> <br>
+        <label for="">nota 4</label>
+        <input id="n4"> <br>
+        <button onclick="media()">gerar media</button>
+        <h2 id="resultado"></h2>
+    </main>
+    <section>
+        <h1>coloque um valor abaixo</h1>
+        <label for="">numero</label>
+        <input id="ReceberNumero"> <br>
+        <button onclick="par()">Numero Par</button>
+        <h1 id="ParouImpar"></h1>
+    </section>
+
+    <section>
+        <h1>consute sua multa</h1>
+        <h3>caso você ultrapasse 80km/h você pagara R$ 5 por km acima do limite</h3>
+        <label for="">coloque sua velocidade</label>
+        <input id="Velocidade"> <br>
+        <label for="">calcule sua multa</label>
+        <button onclick="multa()">calcular</button>
+        <h2 id="resultadoo"></h2>
+
+    </section>
+    <script src="velocidade.js"></script>
+    <script src="par.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

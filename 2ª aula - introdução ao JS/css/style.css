@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to top, red, yellow);
+    background-attachment: fixed;
+    color: rgb(0, 0, 0);
+}
+main{
+    background-color: rgba(255, 255, 255, 0.459);
+    border-radius: 15px;
+    margin: auto;
+    width: 700px;
+    height: 1100px;
+
+}
+main h1{
+    padding: 5px;
+}

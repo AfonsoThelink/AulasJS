@@ -1,0 +1,21 @@
+body{
+    background: rgb(30,17,230);
+background: linear-gradient(90deg, rgba(30,17,230,1) 0%, rgba(135,28,201,1) 28%, rgba(253,29,29,1) 74%, rgba(252,176,69,1) 100%);
+    background-attachment: fixed;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.principal{
+    background-color: rgba(255, 255, 255, 0.219);
+    border: 3px solid rgba(255, 255, 255, 0.137);
+    border-radius: 17px;
+    margin: auto;
+    width: 900px;
+    height: 1100px;
+    text-align: center;
+}
+.button{
+    border: none;
+    border-radius: 7px;
+    background-color: rgba(255, 255, 255, 0.596);
+}

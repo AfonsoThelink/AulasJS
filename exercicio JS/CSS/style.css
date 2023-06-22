@@ -1,0 +1,28 @@
+body{
+    background: rgb(30,17,230);
+background: linear-gradient(145deg, rgba(30,17,230,1) 0%, rgba(135,28,201,1) 41%, rgba(253,29,29,1) 87%, rgba(252,176,69,1) 100%);
+background-attachment: fixed;
+color: white;
+}
+main{
+    background-color: rgba(255, 255, 255, 0.397);
+    border-radius: 15px;
+    margin: auto;
+    height: 900px;
+    width: 900px;
+}
+h1{
+    padding: 10px 10px;
+}
+.calcule{
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+}
+button{
+    color: white;
+    background-color: darkturquoise;
+    border: none;
+    border-radius: 7px;
+    padding: 10px 13px;
+}
